@@ -1,55 +1,38 @@
-# Prerequisites
-*.d
+# --- VS Code & TerosHDL ---
+.vscode/
+.teros/
+*.vcd
+*.gtkw
+*.swp
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# --- Cadence (Xcelium/Genus/Innovus) ---
+xcelium.d/
+INCA_libs/
+*.shm/
+*.dsn
+*.trn
+*.log
+*.history
+fv/
+synthesis_output/
+*.key
+.simvision/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# --- Xilinx Vivado ---
+*.jou
+*.log
+*.pb
+*.wdb
+xsim.dir/
+.Xil/
+*.str
+project_*/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# --- Lattice (Diamond/Radiant) ---
+*.sty
+*.jed
+*.bit
+*.l1
+*.l2
+*_tcr.dir/
+impl1/
